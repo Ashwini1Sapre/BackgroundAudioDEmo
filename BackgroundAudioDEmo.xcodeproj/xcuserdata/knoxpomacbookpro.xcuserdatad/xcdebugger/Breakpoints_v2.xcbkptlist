@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2865E4DF-9188-46E3-9EB1-E35ADF9ABF44"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89099907-3C84-402D-B7A1-E4DE4D6248A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundAudioDEmo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "applicationWillEnterForeground(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A69B4044-8B81-4072-A4EA-E3BB932BD376"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundAudioDEmo/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "applicationDidEnterBackground(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundAudioDEmo/PlayAudioView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "songs"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - 1e8b5a1ccac0e51f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.(songs in _612CA07CF62288CDF9E8540DBB0AC438).getter : Swift.Array&lt;__C.AVPlayerItem&gt;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - 1e8b5a1ccac0e51f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.(songs in _612CA07CF62288CDF9E8540DBB0AC438).setter : Swift.Array&lt;__C.AVPlayerItem&gt;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - 1e8b5a1ccac0e88c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.(songs in _612CA07CF62288CDF9E8540DBB0AC438).modify : Swift.Array&lt;__C.AVPlayerItem&gt;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - 6727f9cc83b109cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.(songs in _612CA07CF62288CDF9E8540DBB0AC438).modify : Swift.Array&lt;__C.AVPlayerItem&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - de20a896b1a351ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BackgroundAudioDEmo.PlayAudioView"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "539">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - f4fb8e4f625cfc64"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BackgroundAudioDEmo.PlayAudioView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BackgroundAudioDEmo.PlayAudioView&gt;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "C73ECB92-9550-44CD-8EE2-575194B14D20 - 7beef0d7d0971679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Array&lt;__C.AVPlayerItem&gt; in BackgroundAudioDEmo.PlayAudioView.(songs in _612CA07CF62288CDF9E8540DBB0AC438).getter : Swift.Array&lt;__C.AVPlayerItem&gt;"
+                  moduleName = "BackgroundAudioDEmo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/knoxpomacbookpro/Desktop/BackgroundAudioDEmo/BackgroundAudioDEmo/PlayAudioView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56355421-29C0-47C3-8016-FEB829CAB2CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundAudioDEmo/PlayAudioView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "songs"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11E35969-4374-484C-8160-B2A86D116E7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundAudioDEmo/PlayAudioView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

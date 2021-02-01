@@ -6,13 +6,28 @@
 //
 
 import UIKit
-
+import AVFoundation
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        let audioSession = AVAudioSession.sharedInstance()
+        do
+        {
+            
+           // try audioSession.setCategory(.playback, mode: .moviePlayback)
+            //try audioSession.setCategory(.playAndRecord,  mode: .moviePlayback)
+            try audioSession.setActive(true)
+            
+            try audioSession.setCategory(AVAudioSession.Category.playback)
+        }
+        catch {
+            
+            print("failed")
+        }
         // Override point for customization after application launch.
         return true
     }
@@ -31,6 +46,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        let viewcontroller = window?.rootViewController as! ViewController
+        viewcontroller.disconnectplyer()
+    }
+    
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        let viewcontroller = window?.rootViewController as! ViewController
+        viewcontroller.reconnectPlyer()
+    }
 
 }
 

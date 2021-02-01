@@ -15,6 +15,10 @@
 		600DF4D425C808CE00573858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600DF4D225C808CE00573858 /* LaunchScreen.storyboard */; };
 		600DF4DF25C808CE00573858 /* BackgroundAudioDEmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DF4DE25C808CE00573858 /* BackgroundAudioDEmoTests.swift */; };
 		600DF4EA25C808CE00573858 /* BackgroundAudioDEmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DF4E925C808CE00573858 /* BackgroundAudioDEmoUITests.swift */; };
+		600DF50125C815DC00573858 /* PlayAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DF50025C815DC00573858 /* PlayAudioView.swift */; };
+		600DF51325C82D4900573858 /* WhatYouWant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 600DF51025C82D4800573858 /* WhatYouWant.mp3 */; };
+		600DF51425C82D4900573858 /* FeelinGood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 600DF51125C82D4800573858 /* FeelinGood.mp3 */; };
+		600DF51525C82D4900573858 /* IronBacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 600DF51225C82D4900573858 /* IronBacon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		600DF4E525C808CE00573858 /* BackgroundAudioDEmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioDEmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		600DF4E925C808CE00573858 /* BackgroundAudioDEmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioDEmoUITests.swift; sourceTree = "<group>"; };
 		600DF4EB25C808CE00573858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600DF50025C815DC00573858 /* PlayAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioView.swift; sourceTree = "<group>"; };
+		600DF51025C82D4800573858 /* WhatYouWant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhatYouWant.mp3; sourceTree = "<group>"; };
+		600DF51125C82D4800573858 /* FeelinGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FeelinGood.mp3; sourceTree = "<group>"; };
+		600DF51225C82D4900573858 /* IronBacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IronBacon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		600DF4C625C808CC00573858 /* BackgroundAudioDEmo */ = {
 			isa = PBXGroup;
 			children = (
+				600DF51925C82D4F00573858 /* AudioFile */,
 				600DF4C725C808CC00573858 /* AppDelegate.swift */,
 				600DF4C925C808CC00573858 /* SceneDelegate.swift */,
 				600DF4CB25C808CC00573858 /* ViewController.swift */,
+				600DF50025C815DC00573858 /* PlayAudioView.swift */,
 				600DF4CD25C808CC00573858 /* Main.storyboard */,
 				600DF4D025C808CE00573858 /* Assets.xcassets */,
 				600DF4D225C808CE00573858 /* LaunchScreen.storyboard */,
@@ -126,6 +136,16 @@
 				600DF4EB25C808CE00573858 /* Info.plist */,
 			);
 			path = BackgroundAudioDEmoUITests;
+			sourceTree = "<group>";
+		};
+		600DF51925C82D4F00573858 /* AudioFile */ = {
+			isa = PBXGroup;
+			children = (
+				600DF51125C82D4800573858 /* FeelinGood.mp3 */,
+				600DF51225C82D4900573858 /* IronBacon.mp3 */,
+				600DF51025C82D4800573858 /* WhatYouWant.mp3 */,
+			);
+			path = AudioFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				600DF51325C82D4900573858 /* WhatYouWant.mp3 in Resources */,
 				600DF4D425C808CE00573858 /* LaunchScreen.storyboard in Resources */,
+				600DF51425C82D4900573858 /* FeelinGood.mp3 in Resources */,
 				600DF4D125C808CE00573858 /* Assets.xcassets in Resources */,
+				600DF51525C82D4900573858 /* IronBacon.mp3 in Resources */,
 				600DF4CF25C808CC00573858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				600DF4CC25C808CC00573858 /* ViewController.swift in Sources */,
+				600DF50125C815DC00573858 /* PlayAudioView.swift in Sources */,
 				600DF4C825C808CC00573858 /* AppDelegate.swift in Sources */,
 				600DF4CA25C808CC00573858 /* SceneDelegate.swift in Sources */,
 			);
